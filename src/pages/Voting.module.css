@@ -1,0 +1,82 @@
+
+.voting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+
+.voting-content {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #fff;
+}
+
+.voting-btn {
+    display: flex;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    gap: 5px;
+    margin-top: 0;
+}
+
+.voting-content svg {
+    width: 32px;
+    height: 32px;
+    fill: #608BC1;
+}
+
+.random-img {
+    height: 45vh;
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-reactions {
+    position: relative;
+}
+
+.voting-btn button {
+    background-color: #CBDCEB;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.voting-btn button:hover {
+    background-color: #608BC1;
+}
+
+.voting-btn button:hover svg {
+    fill: #fff;
+}
+
+/* Wrapper for the image and loading text */
+.image-wrapper {
+    height: 45vh; /* Match the height with random image height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Loading text styling */
+.loadingText {
+    text-align: center;
+    width: 100%;
+}
+
+.voting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

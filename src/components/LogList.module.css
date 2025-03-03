@@ -1,0 +1,17 @@
+.log-container {
+    background-color: #F3F3E0;
+    margin: 2.5em 15px 1em 15px;
+    justify-content: center;
+    width: 97%;
+    max-height: 28.5vh;
+    overflow-y: auto;
+    border-radius: 17px;
+    padding-left: 15px;
+    /* Ensure there's enough room for the log container */
+  }
+  
+  .loadingText {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }

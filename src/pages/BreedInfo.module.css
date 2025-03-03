@@ -1,0 +1,54 @@
+.detail-container {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows for image and data */
+    gap: 15px;
+    justify-content: center;
+    color: #608BC1;
+    position: relative;
+}
+
+.data-img-wrapper {
+    grid-row: 1 / 2; /* First row */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+}
+
+.data-img-wrapper img {
+    height: 300px;
+    width: auto; /* Adjust image width automatically */
+    max-width: 100%; /* Make sure image stays within container */
+    border-radius: 17px;
+}
+
+.data-wrapper {
+    grid-row: 2 / 3; /* Second row */
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 17px;
+    text-align: center;
+
+}
+
+.prime-info {
+    line-height: 0.5;
+}
+
+
+.ditail-info-wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    border: 3px solid #CBDCEB;
+    gap: 30px; 
+    text-align: left;
+    border-radius: 17px;
+    padding: 15px;
+
+}
+
+.temperament-info {
+    grid-column: 1 / 2;
+}
+
+.all-info {
+    grid-column: 2 / 3;
+}

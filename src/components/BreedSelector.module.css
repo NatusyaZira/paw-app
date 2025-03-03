@@ -1,0 +1,43 @@
+.selector-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  height: 100%;
+
+}
+
+.breed-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  color: #608BC1;
+  background-color: #F3F3E0; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 100%;
+}
+
+
+.breed-select:focus {
+  outline: none;
+  border-color: #608bc1;
+}
+
+.breed {
+  width: 50vh;
+}
+
+.limit {
+  width: 32.2vh;
+}
+
+.gallery-selector-container {
+  background-color: aqua;
+
+
+}
+
+.gallery-breed-select {
+background-color: black;
+}

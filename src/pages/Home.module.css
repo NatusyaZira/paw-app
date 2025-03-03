@@ -1,0 +1,11 @@
+.default {
+    background-image: url('../assets/images/main-1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 15px;
+    box-shadow: #CBDCEB 0px 2px 5px;
+    grid-row: 1/3;
+    height: 100%;
+
+  } 

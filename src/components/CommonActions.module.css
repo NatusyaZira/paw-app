@@ -1,0 +1,33 @@
+.label {
+    grid-column: 2/5;
+    background-color: #608BC1;
+    color: white;
+    text-align: center;
+    border-radius: 17px;
+    padding: 15px 0;
+    width: 20vh;
+  }
+.back-button {
+    grid-column: 1/2;
+    background-color: #CBDCEB;
+    border-radius: 17px;
+    text-align: center;
+    padding: 8px;
+    border: none;
+
+}
+
+.back-button svg {
+    fill: #608BC1;
+    height: 28px;
+    width: 28px;
+}
+
+.back-button:hover svg{
+    fill: #fff;
+}
+.back-button:hover {
+    background-color: #608BC1;
+   
+}
+

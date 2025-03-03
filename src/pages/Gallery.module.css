@@ -1,0 +1,89 @@
+.selectios-tab {
+    background-color: #F3F3E0;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 17px; 
+    padding: 15px;
+    margin: 15px;
+}
+
+.breed-option {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;  
+}
+
+.breed-limit {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.gallery-selector-container {
+    height: 2.5em; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sub-section {
+    display: grid;
+    grid-template-columns: 87% 10%;
+    gap: 15px; /* Ensure the container takes up the full width */
+}
+
+
+.form-group label{
+   padding-left: 10px;
+   font-size: 14px;
+   color: #608BC1;
+   font-weight: 700;
+   line-height: 2;
+}
+
+.gallery-selector {
+    background-color: #fff;
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: #608BC1;
+    padding-left: 10px;
+    border-radius: 8px; 
+}
+
+.limit {
+    grid-column: 1/2;
+
+}
+
+.refresh-button {
+    background-color: #CBDCEB;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    border: none;
+    grid-column: 2/3;
+    height: 3em;
+    align-self: last baseline;
+}
+
+.refresh-button svg {
+    fill: #608BC1;
+}
+
+.refresh-button:hover {
+    background-color: #608BC1;
+}
+
+.refresh-button:hover svg{
+    fill: #fff;
+}
+
+
+
+

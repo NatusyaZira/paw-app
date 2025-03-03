@@ -1,0 +1,63 @@
+.menu-item svg {
+    height: 180px;
+    width: 150px;
+    fill: #133E87;
+}
+
+li:hover svg {
+    fill: #608BC1;
+}
+
+.nav ul{ 
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+     
+}
+
+
+.img {
+    background-color: #fff;
+    border-radius: 17px;
+    font-weight: 700;
+    border: 5px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+li:hover .img {
+    border: 5px solid #608BC1;
+}
+
+.label {
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 5px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+li:hover .label{
+    background-color: #CBDCEB;
+    color: white;
+    border: 5px solid #608BC1;
+}
+
+.active .img{
+    border: 5px solid #608BC1;
+
+}
+
+.active .label {
+    background-color: #608BC1;
+    color: white;
+}
+
+.active svg {
+    fill: #608BC1;
+}
