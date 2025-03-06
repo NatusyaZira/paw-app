@@ -11,18 +11,22 @@ import classes from "./Voting.module.css";
 
 const API_KEY = import.meta.env.VITE_DOG_APP_API_KEY;
 const fetchRandomDog = async () => {
-    const { data } = await axios.get("https://api.thedogapi.com/v1/images/search", {
+    const response = await axios.get("https://api.thedogapi.com/v1/images/search", {
         headers: { "x-api-key": API_KEY }
     });
-    return data[0];
+    return response.data[0];
 };
 
 export default function Voting() {
-    const { data: dogImage, isLoading, refetch } = useQuery({
+    const dogData = useQuery({
         queryKey: ["randomDog"],
         queryFn: fetchRandomDog,
         refetchOnWindowFocus: false,
     });
+    
+    const dogImage = dogData.data;
+    const isLoading = dogData.isLoading;
+    const refetch = dogData.refetch;
 
     const handleVote = (imageId, value) => {
         const action = value === 1 ? "Likes" : value === 0 ? "Dislikes" : "Favourites";

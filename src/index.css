@@ -29,7 +29,6 @@ html, body {
   display: grid;
   grid-template-columns: 0.7fr 1fr;
   height: 100%;
-  background-color: #133E87;
 }
 
 
